@@ -1,0 +1,185 @@
+/* Showcase */
+.showcase {
+    background-color: lightgrey;
+}
+
+.showcase .container {
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.showcase-img {
+    width: 100%;
+    flex: .86;
+}
+
+.showcase-description {
+    gap: 1.5em;
+}
+
+.showcase-subheading {
+    font-size: 2rem;
+    color: grey;
+}
+
+.email-me {
+    width: fit-content;
+    height: fit-content;
+    padding: .5em 1em;
+    font-size: 2.3rem;
+    align-self: start;
+    gap: .5em;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+/* Hello There */
+.hello-there {
+    background-color: black;
+    color: white;
+}
+
+.hello-there .container {
+    gap: 2em;
+    align-items: start;
+}
+
+.hello-heading {
+    color: lightgrey;
+}
+
+/* Qualifications */
+.qualifications {
+    background-color: rgba(51, 126, 122, 0.612);
+}
+
+.qualifications .container {
+    justify-content: space-around;
+    align-items: start;
+}
+
+.qualifications-heading {
+    justify-self: start;
+}
+
+.qualification-items {
+    gap: 1em;
+    align-items: start;
+}
+
+.qualification-item {
+    align-items: start;
+    gap: 1em;
+}
+
+.qualification-item-logo {
+    width: 45px;
+    height: 45px;
+}
+
+.qualification-item-description {
+    align-items: start;
+}
+
+.qualification-item-description .heading {
+    font-size: 2.9;
+    margin-bottom: .5em;
+}
+
+.qualification-item-description .subheading {
+    font-size: 2.5rem;
+}
+
+/* Work Experience */
+.work-experience {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.work-experience .container {
+    gap: 3em;
+    justify-content: space-around;
+}
+
+.work-experience-items {
+    gap: 1em;
+
+}
+
+.work-experience-item {
+    gap: 1em;
+}
+
+.work-experience-item-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.work-experience-item-description {
+    width: 50%;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.work-experience-item-description span {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+/* Get in touch */
+.get-in-touch {
+    background-color: burlywood;
+}
+
+.get-in-touch .container {
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.get-in-touch-img {
+    width: 100%;
+    flex: .86;
+}
+
+.get-in-touch-description {
+    gap: 1.5em;
+}
+
+.get-in-touch-heading  {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.get-in-touch-subheading {
+    font-size: 2rem;
+}
+
+/* Footer  */
+footer {
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    color: white;
+}
+
+footer .container {
+    justify-content: space-between;
+}
+
+footer .container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+footer .canva {
+    background-color: grey;
+    width: fit-content;
+    height: fit-content;
+    padding: .5em;
+    text-align: center;
+    border-radius: 1em;
+}
